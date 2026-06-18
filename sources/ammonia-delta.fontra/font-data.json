@@ -1,0 +1,270 @@
+{
+"fontInfo": {
+"familyName": "Ammonia Delta",
+"copyright": "Copyright 2026 The Ammonia Delta Project Authors (https://github.com/googlefonts/ammonia-delta)",
+"sampleText": "Hnnnnnnn",
+"designer": "Dave Crossland",
+"licenseDescription": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license also available with a FAQ at: https://openfontlicense.org",
+"licenseInfoURL": "https://openfontlicense.org"
+},
+"axes": {
+"axes": [
+{
+"name": "Optical Size",
+"label": "Optical Size",
+"tag": "opsz",
+"minValue": 8,
+"defaultValue": 14,
+"maxValue": 144
+},
+{
+"name": "Weight",
+"label": "Weight",
+"tag": "wght",
+"minValue": 100,
+"defaultValue": 400,
+"maxValue": 900
+},
+{
+"name": "Width",
+"label": "Width",
+"tag": "wdth",
+"minValue": 50,
+"defaultValue": 100,
+"maxValue": 200
+},
+{
+"name": "Spacing",
+"label": "Parametric Spacing",
+"tag": "XTSP",
+"minValue": 1,
+"defaultValue": 34,
+"maxValue": 148,
+"hidden": true
+},
+{
+"name": "Thick Strokes",
+"label": "Parametric Thick Strokes",
+"tag": "XOPQ",
+"minValue": 3,
+"defaultValue": 75,
+"maxValue": 195,
+"hidden": true
+},
+{
+"name": "Thin Strokes",
+"label": "Parametric Thin Strokes",
+"tag": "YOPQ",
+"minValue": 3,
+"defaultValue": 59,
+"maxValue": 150,
+"hidden": true
+},
+{
+"name": "Counter Width",
+"label": "Parametric Counter Width",
+"tag": "XTRA",
+"minValue": 3,
+"defaultValue": 139,
+"maxValue": 300,
+"hidden": true
+},
+{
+"name": "Counter Height",
+"label": "Parametric Counter Height",
+"tag": "YTLC",
+"minValue": 250,
+"defaultValue": 311,
+"maxValue": 441,
+"hidden": true
+}
+],
+"mappings": [
+{
+"inputLocation": {
+"weight": 100
+},
+"outputLocation": {
+"Thick Strokes": 3,
+"Thin Strokes": 3,
+"Spacing": 1.5
+},
+"description": "DONE",
+"groupDescription": "Weight Min"
+},
+{
+"inputLocation": {
+"weight": 900
+},
+"outputLocation": {
+"Thick Strokes": 195,
+"Thin Strokes": 150,
+"Spacing": 87,
+"Spacingg": 1.5,
+"Counters": 103
+},
+"description": "DONE",
+"groupDescription": "Weight Max"
+},
+{
+"inputLocation": {
+"width": 50
+},
+"outputLocation": {
+"Counters": 3,
+"Spacingg": 1,
+"Counter With": 3
+},
+"description": "DONE",
+"groupDescription": "Width Min"
+},
+{
+"inputLocation": {
+"width": 200
+},
+"outputLocation": {
+"Counters": 300,
+"Spacingg": 100,
+"Counter With": 200
+},
+"description": "DONE",
+"groupDescription": "Width Max"
+},
+{
+"inputLocation": {
+"weight": 100,
+"width": 50
+},
+"outputLocation": {
+"Thick Strokes": 3,
+"Thin Strokes": 3,
+"Counter With": 3,
+"Spacingg": 10
+},
+"description": "DONE",
+"groupDescription": "Weight Min Width Min"
+},
+{
+"inputLocation": {
+"weight": 900,
+"width": 200
+},
+"outputLocation": {
+"Counter With": 300,
+"Thick Strokes": 195,
+"Thin Strokes": 150,
+"Spacingg": 1
+},
+"description": "DONE",
+"groupDescription": "Weight Max Width Max"
+},
+{
+"inputLocation": {
+"weight": 100,
+"width": 200
+},
+"outputLocation": {
+"Thick Strokes": 3,
+"Thin Strokes": 3,
+"Counter With": 300,
+"Spacingg": 148
+},
+"description": "DONE",
+"groupDescription": "Weight Min Width Max"
+},
+{
+"inputLocation": {
+"weight": 900,
+"width": 50
+},
+"outputLocation": {
+"Thick Strokes": 195,
+"Thin Strokes": 150,
+"Counter With": 120,
+"Spacingg": 10
+},
+"description": "TODO",
+"groupDescription": "Weight Max Width Min"
+},
+{
+"inputLocation": {
+"optical": 8
+},
+"outputLocation": {
+"Counter Height": 402.203125,
+"Spacingg": 75.6824652777778,
+"Counter With": 155.2984375,
+"Thin Strokes": 72.2210069444444
+},
+"description": "DONE",
+"groupDescription": "Size Min"
+},
+{
+"inputLocation": {
+"optical": 144
+},
+"outputLocation": {
+"Counter Height": 250,
+"Thick Strokes": 46.7880515093941,
+"Thin Strokes": 24.0916191682499,
+"Counter With": 103.065625,
+"Spacingg": 13.0922524804729
+},
+"description": "DONE",
+"groupDescription": "Size Max"
+},
+{
+"inputLocation": {
+"optical": 144,
+"weight": 900
+},
+"outputLocation": {
+"Thick Strokes": 195,
+"Thin Strokes": 150,
+"Counter Height": 319.878587962963,
+"Spacingg": 1,
+"Counter With": 103
+},
+"description": "DONE",
+"groupDescription": "Size Max Weight Max"
+}
+]
+},
+"sources": {
+"73192a90": {
+"name": "Regular",
+"lineMetricsHorizontalLayout": {
+"ascender": {
+"value": 750,
+"zone": 16
+},
+"descender": {
+"value": -250,
+"zone": -16
+},
+"xHeight": {
+"value": 500,
+"zone": 16
+},
+"capHeight": {
+"value": 750,
+"zone": 16
+},
+"baseline": {
+"value": 0,
+"zone": -16
+}
+}
+}
+},
+"customData": {
+"fontra.projectGlyphSets": [
+{
+"commentChars": "#",
+"dataFormat": "glyph-names",
+"name": "GF Latin Kernel",
+"url": "https://cdn.jsdelivr.net/gh/googlefonts/glyphsets/data/results/txt/nice-names/GF_Latin_Kernel.txt"
+}
+]
+}
+}
