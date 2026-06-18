@@ -1,3 +1,5 @@
+sources:
+    - ammonia-delta.fontra
 recipe:
     ../fonts/Ammonia-Delta-avar2.ttf:
         - source: ammonia-delta.fontra
