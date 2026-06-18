@@ -82,7 +82,7 @@
 "mappings": [
 {
 "inputLocation": {
-"weight": 100
+"Weight": 100
 },
 "outputLocation": {
 "Thick Strokes": 3,
@@ -94,106 +94,106 @@
 },
 {
 "inputLocation": {
-"weight": 900
+"Weight": 900
 },
 "outputLocation": {
 "Thick Strokes": 195,
 "Thin Strokes": 150,
 "Spacing": 87,
-"Spacingg": 1.5,
-"Counters": 103
+"Counter Width": 103,
+"Counter Height": 103
 },
 "description": "DONE",
 "groupDescription": "Weight Max"
 },
 {
 "inputLocation": {
-"width": 50
+"Width": 50
 },
 "outputLocation": {
-"Counters": 3,
-"Spacingg": 1,
-"Counter With": 3
+"Counter Height": 3,
+"Spacing": 1,
+"Counter Width": 3
 },
 "description": "DONE",
 "groupDescription": "Width Min"
 },
 {
 "inputLocation": {
-"width": 200
+"Width": 200
 },
 "outputLocation": {
-"Counters": 300,
-"Spacingg": 100,
-"Counter With": 200
+"Counter Height": 300,
+"Spacing": 100,
+"Counter Width": 200
 },
 "description": "DONE",
 "groupDescription": "Width Max"
 },
 {
 "inputLocation": {
-"weight": 100,
-"width": 50
+"Weight": 100,
+"Width": 50
 },
 "outputLocation": {
 "Thick Strokes": 3,
 "Thin Strokes": 3,
-"Counter With": 3,
-"Spacingg": 10
+"Counter Width": 3,
+"Spacing": 10
 },
 "description": "DONE",
 "groupDescription": "Weight Min Width Min"
 },
 {
 "inputLocation": {
-"weight": 900,
-"width": 200
+"Weight": 900,
+"Width": 200
 },
 "outputLocation": {
-"Counter With": 300,
+"Counter Width": 300,
 "Thick Strokes": 195,
 "Thin Strokes": 150,
-"Spacingg": 1
+"Spacing": 1
 },
 "description": "DONE",
 "groupDescription": "Weight Max Width Max"
 },
 {
 "inputLocation": {
-"weight": 100,
-"width": 200
+"Weight": 100,
+"Width": 200
 },
 "outputLocation": {
 "Thick Strokes": 3,
 "Thin Strokes": 3,
-"Counter With": 300,
-"Spacingg": 148
+"Counter Width": 300,
+"Spacing": 148
 },
 "description": "DONE",
 "groupDescription": "Weight Min Width Max"
 },
 {
 "inputLocation": {
-"weight": 900,
-"width": 50
+"Weight": 900,
+"Width": 50
 },
 "outputLocation": {
 "Thick Strokes": 195,
 "Thin Strokes": 150,
-"Counter With": 120,
-"Spacingg": 10
+"Counter Width": 120,
+"Spacing": 10
 },
 "description": "TODO",
 "groupDescription": "Weight Max Width Min"
 },
 {
 "inputLocation": {
-"optical": 8
+"Optical Size": 8
 },
 "outputLocation": {
 "Counter Height": 402.203125,
-"Spacingg": 75.6824652777778,
-"Counter With": 155.2984375,
+"Spacing": 75.6824652777778,
+"Counter Width": 155.2984375,
 "Thin Strokes": 72.2210069444444
 },
 "description": "DONE",
@@ -201,29 +201,29 @@
 },
 {
 "inputLocation": {
-"optical": 144
+"Optical Size": 144
 },
 "outputLocation": {
 "Counter Height": 250,
 "Thick Strokes": 46.7880515093941,
 "Thin Strokes": 24.0916191682499,
-"Counter With": 103.065625,
-"Spacingg": 13.0922524804729
+"Counter Width": 103.065625,
+"Spacing": 13.0922524804729
 },
 "description": "DONE",
 "groupDescription": "Size Max"
 },
 {
 "inputLocation": {
-"optical": 144,
-"weight": 900
+"Optical Size": 144,
+"Weight": 900
 },
 "outputLocation": {
 "Thick Strokes": 195,
 "Thin Strokes": 150,
 "Counter Height": 319.878587962963,
-"Spacingg": 1,
-"Counter With": 103
+"Spacing": 1,
+"Counter Width": 103
 },
 "description": "DONE",
 "groupDescription": "Size Max Weight Max"
