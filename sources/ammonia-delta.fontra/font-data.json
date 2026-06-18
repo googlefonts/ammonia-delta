@@ -89,8 +89,8 @@
 "Thin Strokes": 3,
 "Spacing": 1.5
 },
-"description": "DONE",
-"groupDescription": "Weight Min"
+"description": "Weight Min DONE",
+"groupDescription": "UniVars"
 },
 {
 "inputLocation": {
@@ -103,8 +103,8 @@
 "Spacingg": 1.5,
 "Counters": 103
 },
-"description": "DONE",
-"groupDescription": "Weight Max"
+"description": "Weight Max DONE",
+"groupDescription": "UniVars"
 },
 {
 "inputLocation": {
@@ -115,8 +115,8 @@
 "Spacingg": 1,
 "Counter With": 3
 },
-"description": "DONE",
-"groupDescription": "Width Min"
+"description": "Width Min DONE",
+"groupDescription": "UniVars"
 },
 {
 "inputLocation": {
@@ -127,8 +127,8 @@
 "Spacingg": 100,
 "Counter With": 200
 },
-"description": "DONE",
-"groupDescription": "Width Max"
+"description": "Width Max DONE",
+"groupDescription": "UniVars"
 },
 {
 "inputLocation": {
@@ -141,8 +141,8 @@
 "Counter With": 3,
 "Spacingg": 10
 },
-"description": "DONE",
-"groupDescription": "Weight Min Width Min"
+"description": "Weight Min Width Min DONE",
+"groupDescription": ""
 },
 {
 "inputLocation": {
@@ -155,8 +155,8 @@
 "Thin Strokes": 150,
 "Spacingg": 1
 },
-"description": "DONE",
-"groupDescription": "Weight Max Width Max"
+"description": "Weight Max Width Max DONE",
+"groupDescription": "DuoVars"
 },
 {
 "inputLocation": {
@@ -169,8 +169,8 @@
 "Counter With": 300,
 "Spacingg": 148
 },
-"description": "DONE",
-"groupDescription": "Weight Min Width Max"
+"description": "Weight Min Width Max DONE",
+"groupDescription": "DuoVars"
 },
 {
 "inputLocation": {
@@ -183,8 +183,8 @@
 "Counter With": 120,
 "Spacingg": 10
 },
-"description": "TODO",
-"groupDescription": "Weight Max Width Min"
+"description": "Weight Max Width Min TODO",
+"groupDescription": "DuoVars"
 },
 {
 "inputLocation": {
@@ -196,8 +196,8 @@
 "Counter With": 155.2984375,
 "Thin Strokes": 72.2210069444444
 },
-"description": "DONE",
-"groupDescription": "Size Min"
+"description": "Size Min DONE",
+"groupDescription": "UniVars"
 },
 {
 "inputLocation": {
@@ -210,8 +210,8 @@
 "Counter With": 103.065625,
 "Spacingg": 13.0922524804729
 },
-"description": "DONE",
-"groupDescription": "Size Max"
+"description": "Size Max DONE",
+"groupDescription": "UniVars"
 },
 {
 "inputLocation": {
@@ -225,8 +225,8 @@
 "Spacingg": 1,
 "Counter With": 103
 },
-"description": "DONE",
-"groupDescription": "Size Max Weight Max"
+"description": "Size Max Weight Max DONE",
+"groupDescription": "DuoVars"
 }
 ]
 },
