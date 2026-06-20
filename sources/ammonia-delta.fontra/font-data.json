@@ -34,7 +34,32 @@
 "maxValue": 200
 },
 {
+"name": "Word Spacing",
+"label": "Word Spacing",
+"tag": "WDSP",
+"minValue": -100,
+"defaultValue": 0,
+"maxValue": 100
+},
+{
 "name": "Spacing",
+"label": "Spacing",
+"tag": "SPAC",
+"minValue": -100,
+"defaultValue": 0,
+"maxValue": 100
+},
+{
+"name": "P-Word Spacing",
+"label": "Parametric Word Spacing",
+"tag": "XTWS",
+"minValue": 0,
+"defaultValue": 180,
+"maxValue": 360,
+"hidden": true
+},
+{
+"name": "P-Spacing",
 "label": "Parametric Spacing",
 "tag": "XTSP",
 "minValue": 1,
@@ -82,113 +107,71 @@
 "mappings": [
 {
 "inputLocation": {
-"weight": 100
+"weight": 100,
+"Weight": 100
 },
 "outputLocation": {
 "Thick Strokes": 3,
 "Thin Strokes": 3,
-"Spacing": 1.5
+"P-Spacing": 34,
+"P-Word Spacing": 200
 },
 "description": "Weight Min DONE",
 "groupDescription": "UniVars"
 },
 {
 "inputLocation": {
-"weight": 900
+"weight": 900,
+"Weight": 900
 },
 "outputLocation": {
 "Thick Strokes": 195,
 "Thin Strokes": 150,
-"Spacing": 87,
 "Spacingg": 1.5,
-"Counters": 103
+"Counters": 103,
+"P-Spacing": 20,
+"P-Word Spacing": 120
 },
 "description": "Weight Max DONE",
 "groupDescription": "UniVars"
 },
 {
 "inputLocation": {
-"width": 50
+"width": 50,
+"Width": 50
 },
 "outputLocation": {
 "Counters": 3,
 "Spacingg": 1,
-"Counter With": 3
+"Counter With": 3,
+"Counter Width": 3,
+"P-Spacing": 20,
+"Thick Strokes": 40,
+"P-Word Spacing": 80
 },
 "description": "Width Min DONE",
 "groupDescription": "UniVars"
 },
 {
 "inputLocation": {
-"width": 200
+"width": 200,
+"Width": 200
 },
 "outputLocation": {
 "Counters": 300,
 "Spacingg": 100,
-"Counter With": 200
+"Counter With": 200,
+"Counter Width": 300,
+"P-Spacing": 148,
+"P-Word Spacing": 360
 },
 "description": "Width Max DONE",
 "groupDescription": "UniVars"
 },
 {
 "inputLocation": {
-"weight": 100,
-"width": 50
-},
-"outputLocation": {
-"Thick Strokes": 3,
-"Thin Strokes": 3,
-"Counter With": 3,
-"Spacingg": 10
-},
-"description": "Weight Min Width Min DONE",
-"groupDescription": ""
-},
-{
-"inputLocation": {
-"weight": 900,
-"width": 200
-},
-"outputLocation": {
-"Counter With": 300,
-"Thick Strokes": 195,
-"Thin Strokes": 150,
-"Spacingg": 1
-},
-"description": "Weight Max Width Max DONE",
-"groupDescription": "DuoVars"
-},
-{
-"inputLocation": {
-"weight": 100,
-"width": 200
-},
-"outputLocation": {
-"Thick Strokes": 3,
-"Thin Strokes": 3,
-"Counter With": 300,
-"Spacingg": 148
-},
-"description": "Weight Min Width Max DONE",
-"groupDescription": "DuoVars"
-},
-{
-"inputLocation": {
-"weight": 900,
-"width": 50
-},
-"outputLocation": {
-"Thick Strokes": 195,
-"Thin Strokes": 150,
-"Counter With": 120,
-"Spacingg": 10
-},
-"description": "Weight Max Width Min TODO",
-"groupDescription": "DuoVars"
-},
-{
-"inputLocation": {
-"optical": 8
+"optical": 8,
+"Optical Size": 8
 },
 "outputLocation": {
 "Counter Height": 402.203125,
@@ -201,7 +184,8 @@
 },
 {
 "inputLocation": {
-"optical": 144
+"optical": 144,
+"Optical Size": 144
 },
 "outputLocation": {
 "Counter Height": 250,
@@ -215,8 +199,74 @@
 },
 {
 "inputLocation": {
+"weight": 100,
+"width": 50,
+"Weight": 100,
+"Width": 50
+},
+"outputLocation": {
+"Thick Strokes": 3,
+"Thin Strokes": 3,
+"Counter With": 3,
+"Spacingg": 10
+},
+"description": "Weight Min Width Min TODO",
+"groupDescription": "DuoVars"
+},
+{
+"inputLocation": {
+"weight": 900,
+"width": 200,
+"Weight": 900,
+"Width": 200
+},
+"outputLocation": {
+"Counter With": 300,
+"Thick Strokes": 195,
+"Thin Strokes": 150,
+"Spacingg": 1
+},
+"description": "Weight Max Width Max TODO",
+"groupDescription": "DuoVars"
+},
+{
+"inputLocation": {
+"weight": 100,
+"width": 200,
+"Weight": 100,
+"Width": 200
+},
+"outputLocation": {
+"Thick Strokes": 3,
+"Thin Strokes": 3,
+"Counter With": 300,
+"Spacingg": 148
+},
+"description": "Weight Min Width Max TODO",
+"groupDescription": "DuoVars"
+},
+{
+"inputLocation": {
+"weight": 900,
+"width": 50,
+"Weight": 900,
+"Width": 50
+},
+"outputLocation": {
+"Thick Strokes": 195,
+"Thin Strokes": 150,
+"Counter With": 120,
+"Spacingg": 10
+},
+"description": "Weight Max Width Min TODO",
+"groupDescription": "DuoVars"
+},
+{
+"inputLocation": {
 "optical": 144,
-"weight": 900
+"weight": 900,
+"Optical Size": 144,
+"Weight": 900
 },
 "outputLocation": {
 "Thick Strokes": 195,
@@ -225,8 +275,49 @@
 "Spacingg": 1,
 "Counter With": 103
 },
-"description": "Size Max Weight Max DONE",
+"description": "Size Max Weight Max TODO",
 "groupDescription": "DuoVars"
+},
+{
+"inputLocation": {
+"Word Spacing": -100
+},
+"outputLocation": {
+"P-Word Spacing": 0
+},
+"description": "Parametric Word Spacing Min to Word Spacing Min DONE",
+"groupDescription": "Spacing"
+},
+{
+"inputLocation": {
+"Word Spacing": 100
+},
+"outputLocation": {
+"Parametric Spacing": 100,
+"P-Word Spacing": 360
+},
+"description": "Parametric Word Spacing Max to Word Spacing Max DONE",
+"groupDescription": "Spacing"
+},
+{
+"inputLocation": {
+"Spacing": -100
+},
+"outputLocation": {
+"P-Spacing": 1
+},
+"description": "Parametric Spacing Min to Spacing Min DONE",
+"groupDescription": "Spacing"
+},
+{
+"inputLocation": {
+"Spacing": 100
+},
+"outputLocation": {
+"P-Spacing": 148
+},
+"description": "Parametric Spacing Max to Spacing Max DONE",
+"groupDescription": "Spacing"
 }
 ]
 },
@@ -264,6 +355,19 @@
 "dataFormat": "glyph-names",
 "name": "GF Latin Kernel",
 "url": "https://cdn.jsdelivr.net/gh/googlefonts/glyphsets/data/results/txt/nice-names/GF_Latin_Kernel.txt"
+}
+],
+"fontra.sourceStatusFieldDefinitions": [
+{
+"color": [
+1,
+0,
+0,
+1
+],
+"isDefault": true,
+"label": "In progress",
+"value": 0
 }
 ]
 }

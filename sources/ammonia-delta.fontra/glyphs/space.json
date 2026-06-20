@@ -1,0 +1,41 @@
+{
+"name": "space",
+"sources": [
+{
+"name": "",
+"layerName": "73192a90",
+"locationBase": "73192a90"
+},
+{
+"name": "P-Word Spacing=0",
+"layerName": "P-Word Spacing=0",
+"location": {
+"P-Word Spacing": 0
+}
+},
+{
+"name": "P-Word Spacing=360",
+"layerName": "P-Word Spacing=360",
+"location": {
+"P-Word Spacing": 360
+}
+}
+],
+"layers": {
+"73192a90": {
+"glyph": {
+"xAdvance": 180
+}
+},
+"P-Word Spacing=0": {
+"glyph": {
+"xAdvance": 0
+}
+},
+"P-Word Spacing=360": {
+"glyph": {
+"xAdvance": 360
+}
+}
+}
+}

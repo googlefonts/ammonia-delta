@@ -17,8 +17,7 @@
 },
 {
 "name": "Default",
-"layerName": "Default",
-"locationBase": "73192a90"
+"layerName": "Default"
 },
 {
 "name": "Thin Strokes=150",
@@ -49,17 +48,17 @@
 }
 },
 {
-"name": "Spacing=1",
-"layerName": "Spacing=1",
+"name": "P-Spacing=1",
+"layerName": "P-Spacing=1",
 "location": {
-"Spacing": 1
+"P-Spacing": 1
 }
 },
 {
-"name": "Spacing=148",
-"layerName": "Spacing=148",
+"name": "P-Spacing=148",
+"layerName": "P-Spacing=148",
 "location": {
-"Spacing": 148
+"P-Spacing": 148
 }
 },
 {
@@ -970,10 +969,21 @@
 }
 ]
 },
-"xAdvance": 357
+"xAdvance": 357,
+"guidelines": [
+{
+"name": "X Height",
+"x": -729,
+"y": 1400
+},
+{
+"name": "X-Height",
+"y": 311
+}
+]
 }
 },
-"Spacing=1": {
+"P-Spacing=1": {
 "glyph": {
 "path": {
 "contours": [
@@ -1152,7 +1162,7 @@
 "xAdvance": 291
 }
 },
-"Spacing=148": {
+"P-Spacing=148": {
 "glyph": {
 "path": {
 "contours": [
